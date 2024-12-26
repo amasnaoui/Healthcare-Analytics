@@ -1,6 +1,18 @@
 # Healthcare-Analytics-Dashboard
 ![Screenshot of Summary Page from my Dashboard](https://github.com/amasnaoui/Healthcare-Analytics/blob/master/Reports/Summary%20Page.png)
 ![Screenshot of Deitail Page from my Dashboard](https://github.com/amasnaoui/Healthcare-Analytics/blob/master/Reports/Detail%20Page.png)
+
+## Table of Contents
+- [Overview](#Overview)
+- [Data Collection](#data-collection)
+- [Data Transformation:](#Data-transformation)
+- [Data Modeling:](#Data-Modeling)
+- [Dashboard Layout & Design:](#dashboard-layout--design)
+- [Adding Interactivity:](#adding-interactivity)
+- [Sharing:](#Sharing)
+- [Routine Refresh & Maintenance:](#routine-refresh--maintenance)
+- [Contact me](#contact-me)
+
 ## Overview
 
 This project demonstrates the end-to-end development of an interactive Power BI dashboard using publicly available healthcare data on patient waiting lists. It covers the entire process from requirement gathering and data collection to visualization, interactivity, and deployment considerations.
