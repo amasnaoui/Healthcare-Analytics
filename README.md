@@ -5,12 +5,12 @@
 ## Table of Contents
 - [Overview](#Overview)
 - [Data Collection](#data-collection)
-- [Data Transformation:](#Data-transformation)
-- [Data Modeling:](#Data-Modeling)
-- [Dashboard Layout & Design:](#dashboard-layout--design)
-- [Adding Interactivity:](#adding-interactivity)
+- [Data Transformation](#Data-transformation)
+- [Data Modeling](#Data-Modeling)
+- [Dashboard Layout & Design](#dashboard-layout--design)
+- [Adding Interactivity](#adding-interactivity)
 - [Sharing:](#Sharing)
-- [Routine Refresh & Maintenance:](#routine-refresh--maintenance)
+- [Routine Refresh & Maintenance](#routine-refresh--maintenance)
 - [Contact me](#contact-me)
 
 ## Overview
