@@ -23,6 +23,27 @@ This project demonstrates the end-to-end development of an interactive Power BI 
 - Create a line chart with visual filters for "Case_Type" and slicers for various dimensions.
 - Design a detailed view with a matrix and a tooltip page with a chart and card.
 - Apply visual aesthetics using a reference dashboard for inspiration and tools like PowerPoint, Canva, and Color.Adobe.com.
+### DAX measures Used :
+We will create 2 measures which will be used in our visuals for calculating Latest Month & Previous Year Wait List
+```
+Latest Month Wait List = CALCULATE(SUM(All_Data[Total]),All_Data[Archive_Date] = MAX(All_Data[Archive_Date])) + 0
+
+PY Latest Month Wait List = CALCULATE(SUM(All_Data[Total]),All_Data[Archive_Date]= EDATE(MAX(All_Data[Archive_Date]),-12)) + 0
+```
+Now create below measures which will help us get the calculation we need and also to make few chart titles dynamic
+```
+Median Wait List = MEDIAN(All_Data[Total]) 
+
+Average Wait List = AVERAGE(All_Data[Total]) 
+
+Avg/Med Wait List = SWITCH(VALUES('Calculation Method'[Calc Method]),"Average",[Average Wait List],"Median",[Median Wait List]) 
+
+Dynamic Title = SWITCH(VALUES('Calculation Method'[Calc Method]),"Average","Key Indicators - Patient Wait List (Average)","Median","Key Indicators - Patient Wait List (Median)") 
+
+NoDataLeft = IF(ISBLANK(CALCULATE(SUM(All_Data[Total]),All_Data[Case_Type]<>"Outpatient")),"No data for selected criteria","")  
+
+NoDataRight = IF(ISBLANK(CALCULATE(SUM(All_Data[Total]),All_Data[Case_Type]="Outpatient")),"No data for selected criteria","")  
+```
 ## Adding Interactivity:
 - Enhance the dashboard with interactive elements like navigation buttons, chart alternative display text, and hover information.
 ## Sharing:
