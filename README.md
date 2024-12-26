@@ -9,7 +9,7 @@
 - [Data Modeling](#Data-Modeling)
 - [Dashboard Layout & Design](#dashboard-layout--design)
 - [Adding Interactivity](#adding-interactivity)
-- [Sharing:](#Sharing)
+- [Sharing](#Sharing)
 - [Routine Refresh & Maintenance](#routine-refresh--maintenance)
 - [Contact me](#contact-me)
 
