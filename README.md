@@ -29,3 +29,5 @@ This project demonstrates the end-to-end development of an interactive Power BI 
 - Conduct User Acceptance Testing (UAT) to identify bugs and data issues.
 ## Routine Refresh & Maintenance:
 - Implement a routine process for monthly data refresh and maintenance.
+## Contact me!
+If you have any questions, suggestions, or just want to say hello, you can reach out to me at [LinkedIn](https://www.linkedin.com/in/abdelghani-masnaoui/). I would love to hear from you!
